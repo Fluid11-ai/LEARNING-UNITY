@@ -130,12 +130,12 @@ GameObject:
   - component: {fileID: 206551486}
   - component: {fileID: 206551485}
   m_Layer: 0
-  m_Name: Vriables
+  m_Name: ronak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &206551485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,11 +148,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28b585e2846f271418c192dffadccf1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ronak
-  playerName: Ronak
-  age: 21
-  score: 32
-  speed: 5.5
+  health: 100
+  coins: 0
+  movementSpeed: 5
   isAlive: 0
+  playerName: Ronak
 --- !u!4 &206551486
 Transform:
   m_ObjectHideFlags: 0
@@ -432,52 +432,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!1 &645764942
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 645764944}
-  - component: {fileID: 645764943}
-  m_Layer: 0
-  m_Name: Mathods
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &645764943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645764942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b9a289e6816e004998602b8ddef50e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Mathods
-  health: 100
-  speed: 5.5
---- !u!4 &645764944
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645764942}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,4 +489,3 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 206551486}
-  - {fileID: 645764944}
