@@ -1,4 +1,37 @@
 using UnityEngine;
+/*public and private
+
+public: can be accessed from anywhere, including other classes and scripts. It shows in the Inspector.
+private: can only accessed within the class it is defined in. It does not show in the Inspector.
+SerializeField: this allows Private field in the inpector.
+
+
+             C# ACCESS
+                 │
+        ┌────────┴────────┐
+        │                 │
+      public           private
+        │                 │
+   Other scripts     Only this class
+   can access        can directly access
+-------------------------------------------------
+
+             UNITY INSPECTOR
+                 │
+                 ↓
+          Serialization
+                 │
+        ┌────────┴────────┐
+        │                 │
+   [SerializeField]     Not serialized
+
+
+
+   
+   static: it is used for sharing data. it is used to define variables which are common in all the instances in the class.
+
+
+*/
 
 public class Public_Static_Private : MonoBehaviour
 {   
